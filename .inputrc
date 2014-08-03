@@ -1,0 +1,4 @@
+$include /etc/inputrc
+set autocompletion-ignore-case on
+set completion-prefix-display-length 2
+set completion-map-case on
