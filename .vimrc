@@ -8,7 +8,7 @@ au WinEnter * setlocal cursorline
 au WinLeave * setlocal nocursorline
 inoremap <C-J> <C-n>
 inoremap <C-cr> <C-x><C-o>
-colorscheme ron
+colorscheme koehler
 set nowrap
 set encoding=utf-8
 set scrolloff=2
