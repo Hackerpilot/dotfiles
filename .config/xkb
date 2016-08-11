@@ -1,0 +1,34 @@
+xkb_keymap {
+	xkb_keycodes  { include "evdev+aliases(qwerty)"	};
+	xkb_types     { include "complete"	};
+	xkb_compat    { include "complete"	};
+	xkb_symbols {
+		include "pc+us(dvorak)+inet(evdev)+capslock(groupshift)+compose(sclk)+terminate(ctrl_alt_bksp)"
+
+		key <AD08> {
+			symbols[Group2] = [Up]
+		};
+		key <AC07> {
+			symbols[Group2] = [Left]
+		};
+		key <AC08> {
+			symbols[Group2] = [Down]
+		};
+		key <AC09> {
+			symbols[Group2] = [Right]
+		};
+		key <AD06> {
+			symbols[Group2] = [Prior]
+		};
+		key <AC06> {
+			symbols[Group2] = [Next]
+		};
+		key <AD07> {
+			symbols[Group2] = [Home]
+		};
+		key <AD09> {
+			symbols[Group2] = [End]
+		};
+	};
+	xkb_geometry  { include "pc(pc105)"	};
+};
